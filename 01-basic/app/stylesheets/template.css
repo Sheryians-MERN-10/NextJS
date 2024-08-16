@@ -1,0 +1,94 @@
+/* template.css */
+
+/* Button Styles */
+.my-button {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700;
+}
+
+.my-secondary-button {
+    @apply bg-gray-500 text-white font-semibold py-2 px-4 rounded hover:bg-gray-700;
+}
+
+/* Text Styles */
+.my-text {
+    @apply text-gray-700 text-lg font-medium;
+}
+
+.my-heading {
+    @apply text-2xl font-bold text-black mb-4;
+}
+
+.my-subheading {
+    @apply text-xl font-semibold text-gray-600 mb-2;
+}
+
+/* Form Elements */
+.my-input {
+    @apply border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.my-textarea {
+    @apply border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.my-select {
+    @apply border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* Card Styles */
+.my-card {
+    @apply bg-white shadow-lg rounded-lg p-6 mb-4;
+}
+
+.my-card-title {
+    @apply text-xl font-bold text-black mb-2;
+}
+
+.my-card-body {
+    @apply text-gray-700 text-base;
+}
+
+/* Utility Classes */
+.my-container {
+    @apply max-w-7xl mx-auto px-4;
+}
+
+.my-flex-center {
+    @apply flex items-center justify-center;
+}
+
+.my-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+/* Spacing and Layout */
+.my-margin {
+    @apply mt-4 mb-4;
+}
+
+.my-padding {
+    @apply p-4;
+}
+
+/* Alert Styles */
+.my-alert {
+    @apply bg-red-500 text-white font-semibold p-3 rounded mb-4;
+}
+
+.my-alert-success {
+    @apply bg-green-500 text-white font-semibold p-3 rounded mb-4;
+}
+
+/* Link Styles */
+.my-link {
+    @apply text-blue-500 hover:text-blue-700 underline;
+}
+
+/* Custom List Styles */
+.my-list {
+    @apply list-disc list-inside text-gray-700;
+}
+
+.my-list-item {
+    @apply mb-2;
+}
